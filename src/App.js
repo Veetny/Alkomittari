@@ -3,7 +3,7 @@ import './App.css';
 import { useState } from 'react';
 import './loop.js';
 import Loop from './loop.js';
-
+/*Ei näytä tulosta ensimmäislle calculaten painamisella.*/
 function App() {
   const [litres, setLitre] = useState(0)
   const [grams, setGram] = useState(0)
